@@ -9,6 +9,21 @@
 public class Question_7 {
     // Solution
     public static void main(String[] args) {
+       int i,n,sum;
+        Scanner input = new Scanner(System.in);
+        n = input.nextInt();
+        sum=0;
+        i=0;
+        while(true)
+        {
+            i++;
+            sum=i*(i+1)*(i+2)/6;  
+            if(sum>n)
+            {
+                break;
+            }
+        }
+        System.out.println(i-1);
 
     }
 
